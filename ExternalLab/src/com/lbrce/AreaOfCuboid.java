@@ -8,6 +8,7 @@ public class AreaOfCuboid {
 	}
 	public static void cuboidArea(int length, int height, int width) 
 	{
-		
+		int area=2*(length*width + width*height + length*height);
+		System.out.println("Area of Cuboid:"+area);
 	}
 }
