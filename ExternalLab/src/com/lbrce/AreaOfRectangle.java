@@ -8,6 +8,7 @@ public class AreaOfRectangle {
 	}
 	public static void rectangleArea(int length, int breadth)
 	{
-		
+		  int area= length * breadth;
+		  System.out.println("area of rectangle:"+area);
 	}
 }
